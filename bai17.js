@@ -2,7 +2,7 @@
 let n = 99;
 
 for(let i = 1; i <= n/ 2; i += 2) {
-    if(n % i === 0 && i % 2 === 1) {
+    if(n % i === 0) {
         console.log(i);
     }
 }
