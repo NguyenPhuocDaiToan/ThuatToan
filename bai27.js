@@ -1,7 +1,7 @@
 // Bài 27: Đếm chữ số lớn nhất của số nguyên dương n bằng Javascript
 
 let n = 97966386;
-let max = 0;
+let max = -1;
 let count = 1;
 do {
     if(n % 10 === max) {
