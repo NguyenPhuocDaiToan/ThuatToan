@@ -1,7 +1,7 @@
 // Bài 31: Kiểm tra các chữ số của số n có tăng dần từ trái sang phải không bằng Javascript
 
 function checkIncreaseLeftToRight(n) {
-    if(n / 10 === 0) {
+    if(Number.parseInt(n / 10) === 0) {
         return true;
     }
     let t = n % 10;
